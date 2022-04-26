@@ -30,6 +30,7 @@ class Server {
             work: 278,
             place: 693,
             area: 698,
+            arranger: 297
         };
         this.instrumentType = {
             instrument: 14,
@@ -108,6 +109,7 @@ class Server {
             'orchestra',
             'conductor',
             'performer',
+            'arranger',
         ];
         this._minorPerformingRoles = [
             'concertmaster',
@@ -673,6 +675,7 @@ class Helper {
             link.orchestra,
             link.conductor,
             link.performer,
+            link.arranger
         ];
         if (a.link === b.link) {
             return 0;
